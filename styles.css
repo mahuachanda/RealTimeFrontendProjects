@@ -1,0 +1,60 @@
+body{
+  background-color: #5B4B8A;
+  color: #f1f1f1;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  font-family: Tahoma;
+
+}
+h1{
+  font-size: 30px;
+}
+h1,p{
+  margin: 1em 0;
+  text-align: center;
+  
+}
+
+
+label{
+  display: block;
+  margin: 0.5em 0;
+}
+form {
+  width: 60vw;
+	max-width: 500px;
+	min-width: 300px;
+	margin: 0 auto;
+}
+#survey-form{
+  background-color: #371B58;
+  padding: 40px;
+}
+
+fieldset{
+  border: none;
+  padding: 1rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+	width: 100%;
+  min-height: 2em;
+}
+textarea{
+  height: 5em;
+}
+
+.inline{
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+#submit{
+  background-color: #D49B54;
+  border: 0;
+  min-height:2rem;
+}
