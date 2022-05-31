@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <h1 id="title">FreeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    
+<form id="survey-form">
+      <label id="name-label"> Name <input id="name" type="text" placeholder="Enter your name" required/></label>
+      <label id="email-label"> Email <input id="email" type="email" placeholder="Enter your email" required/></label>
+      <label id="number-label"> Age <input id="number" type="number" placeholder="Age" min="13" max="120"/>
+</fieldset>
+
+<fieldset>
+  <label> Which option best describes your current role?
+      <select id="dropdown">
+        <option>Select an option</option>
+        <option>Challenges</option>
+        <option>Projects</option>
+      </select>
+  </label>
+</fieldset>
+  <label>Would you recommend freeCodeCamp to a friend?</label>
+<fieldset>
+
+ <label>  <input class="inline" id="number-label" type="radio" name="recommendation" value="Definetely"/> Definitely</label>
+ <label> <input class="inline" id="number-label" type="radio" name="recommendation" value="May be"/> May be </label>
+ <label> <input class="inline" id="number-label" type="radio" name="recommendation" value="Not sure"/> Not sure </label>
+
+</fieldset>
+<label>What would you like to see improved? (Check all that apply)</label>
+<fieldset>
+  
+ <label>  <input class="inline" id="number-label" type="checkbox" value="frontendprojects" /> Frontend projects</label>
+ <label> <input class="inline" id="number-label" type="checkbox" value="backendprojects" /> Backend projects </label>
+  <label>  <input class="inline" id="number-label" type="checkbox"  value="datavisualisation"/> Data Visualisation</label>
+ <label> <input class="inline" id="number-label" type="checkbox" value="challenges" /> Challenges </label>
+
+</fieldset>
+
+<label> Any suggestion ?
+  <textarea id="suggestion" placeholder="Enter your comments here">
+  </textarea>
+  </label>
+
+
+  <input id="submit" type="submit" value="Submit"/>
+
+    </form>
+  </body>
+</html>
