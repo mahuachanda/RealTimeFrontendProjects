@@ -5,15 +5,20 @@
 }
 
 body{
-    background-color: #262b26;
-    color:#333
+    height: 100%;
+    /* background: linear-gradient(to bottom,teal,white); */
+    background-color: teal;
+    color:#333;
 }
-
+#header{
+   margin-top: 150px;
+    text-align: center
+}
 .search-box{
     width: 600px;
     background: #fff;
-    margin: 200px auto 0;
-    border-radius: 5px;
+    margin: 100px auto 0;
+    border-radius: 15px;
 }
 
 .row{
@@ -58,4 +63,9 @@ button fa-solid{
 
 .result-box ul li:hover{
     background: #e9f3ff;
+}
+
+.result-box{
+    max-height: 300px;
+    overflow-y: scroll;
 }
